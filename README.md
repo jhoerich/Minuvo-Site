@@ -39,7 +39,7 @@ Schritte:
    ```
    mkdir ~/minuvo-web && cp -R site/ ~/minuvo-web/ && cd ~/minuvo-web
    git init -b main && git add . && git commit -m "Website"
-   git remote add origin https://github.com/<github-user>/minuvo.git && git push -u origin main
+   git remote add origin https://github.com/jhoerich/minuvo-site.git && git push -u origin main
    ```
 3. Im Repo: Settings → Pages → „Build and deployment“ → Source „Deploy from a branch“, Branch `main`, Ordner `/ (root)`
    → Save. Nach ein bis zwei Minuten ist die Seite online.
@@ -51,14 +51,14 @@ Ergebnis (Repo `minuvo`):
 
 | Seite | URL |
 |---|---|
-| Start (Marketing-URL) | `https://<github-user>.github.io/minuvo/` |
-| Hilfe (Support-URL) | `https://<github-user>.github.io/minuvo/support.html` (englisch: `…/support.html#en`) |
-| Datenschutz (DE) | `https://<github-user>.github.io/minuvo/datenschutz.html` |
-| Privacy (EN) | `https://<github-user>.github.io/minuvo/privacy.html` |
-| Impressum | `https://<github-user>.github.io/minuvo/impressum.html` |
+| Start (Marketing-URL) | `https://jhoerich.github.io/minuvo-site/` |
+| Hilfe (Support-URL) | `https://jhoerich.github.io/minuvo-site/support.html` (englisch: `…/support.html#en`) |
+| Datenschutz (DE) | `https://jhoerich.github.io/minuvo-site/datenschutz.html` |
+| Privacy (EN) | `https://jhoerich.github.io/minuvo-site/privacy.html` |
+| Impressum | `https://jhoerich.github.io/minuvo-site/impressum.html` |
 
 Bei Repo-Namen `minuvo-site` steht `minuvo-site` statt `minuvo` im Pfad. Mit eigener Domain (Settings → Pages →
-Custom domain) ersetzt sie `https://<github-user>.github.io/minuvo`.
+Custom domain) ersetzt sie `https://jhoerich.github.io/minuvo-site`.
 
 **Änderungen später:** Hier in `site/` ändern, dann in das Website-Repo kopieren und pushen. Ändert sich, was die App
 an Daten verarbeitet, zuerst `datenschutz.html` und `privacy.html` anpassen (Datum „Stand“ ändern) und das
