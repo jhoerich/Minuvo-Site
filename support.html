@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hilfe – Minuvo</title>
+  <meta name="description" content="Antworten auf häufige Fragen zu Minuvo, auf Deutsch und Englisch.">
+  <meta name="theme-color" content="#F5EFE6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#15110E" media="(prefers-color-scheme: dark)">
+  <link rel="icon" type="image/png" href="img/app-icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#inhalt">Zum Inhalt springen</a>
+  <header class="site">
+    <div class="wrap">
+      <a class="brand" href="index.html">
+        <picture>
+          <source srcset="img/app-icon-dark.png" media="(prefers-color-scheme: dark)">
+          <img src="img/app-icon.png" alt="" width="32" height="32">
+        </picture>
+        Minuvo
+      </a>
+      <nav aria-label="Hauptnavigation">
+        <ul>
+          <li><a href="index.html">Start</a></li>
+          <li><a href="support.html" aria-current="page">Hilfe</a></li>
+          <li><a href="datenschutz.html">Datenschutz</a></li>
+          <li><a href="#en" lang="en">English</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inhalt">
+    <div class="wrap">
+      <section aria-labelledby="de-title">
+        <h1 id="de-title">Hilfe</h1>
+        <p class="muted">Die häufigsten Fragen zu Minuvo. Deine Frage ist nicht dabei? Schreib an
+          <a href="#kontakt">die Adresse unten</a>.</p>
+
+        <details>
+          <summary>Wie erlaube ich den Zugriff auf die Bildschirmzeit?</summary>
+          <div>
+            <p>Minuvo fragt im Onboarding danach. Tippe auf „Zugriff erlauben“, dann zeigt iOS einen Dialog; bestätige
+              mit „Fortfahren“ und deinem Code oder Face ID. Erst dann kann Minuvo Apps sperren.</p>
+            <p>Hast du den Zugriff abgelehnt, kannst du ihn später in den iOS-Einstellungen unter „Bildschirmzeit“ für
+              Minuvo erlauben. Ohne Zugriff kann Minuvo nichts sperren und deine Nutzung nicht messen.</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>Warum ist mein Budget früher aufgebraucht, als die Anzeige zeigt?</summary>
+          <div>
+            <p>Meist liegt das an „Geräteübergreifend teilen“. Ist es an, rechnet iOS deine Nutzung auf Mac und iPad in
+              dein Budget ein, die Anzeige in Minuvo zählt aber nur dieses iPhone. Ausschalten kannst du es unter
+              Einstellungen → Bildschirmzeit → Geräteübergreifend teilen.</p>
+            <p>Außerdem zählen Apples Anzeige und Apples Sperre leicht unterschiedlich, deshalb können ein paar Minuten
+              Unterschied auch ohne andere Geräte vorkommen.</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>Warum kann ich höchstens 50 Apps auswählen?</summary>
+          <div>
+            <p>iOS sperrt höchstens 50 einzelne Apps gleichzeitig. Darüber sperrt es gar nichts mehr. Die Grenze gilt
+              für alles zusammen, was Minuvo sperren kann: harte und weiche Apps und die Apps mit eigenem Limit.</p>
+            <p>Ganze Kategorien (z. B. „Soziale Netze“) zählen nicht dazu. Wenn du viele Apps begrenzen willst, wähl
+              deshalb lieber Kategorien statt einzelner Apps. Für Websites gilt dieselbe Grenze von 50.</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>Was ist der Unterschied zwischen hart und weich?</summary>
+          <div>
+            <p><strong>Harte Apps</strong> sind gesperrt, sobald dein Tagesbudget aufgebraucht ist, bis Mitternacht.
+              Wenn du wirklich musst, hilft nur die Notfall-Freischaltung: vier Schritte, danach 15 Minuten frei. Sie
+              kostet alles, was du an diesem Tag verdient hast.</p>
+            <p><strong>Weiche Apps</strong> fragen nach: „Doch nicht“ oder „Trotzdem öffnen (5 Min.)“. Jede Öffnung
+              kostet 5 Minuten von deinem Zeitkonto. Websites aus der weichen Gruppe bleiben gesperrt, weil iOS sie
+              nicht einzeln freigeben kann.</p>
+            <p>Beides lässt deine Serie an Tagen ohne Ausnahme neu beginnen. Steckt eine App in beiden Gruppen, gilt
+              hart.</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>Wie hebe ich alle Einschränkungen auf?</summary>
+          <div>
+            <p>Du hast jederzeit die Kontrolle:</p>
+            <ul>
+              <li><strong>App löschen:</strong> Wenn du Minuvo löschst, entfernt iOS alle Sperren und alle Daten der
+                App.</li>
+              <li><strong>Zugriff widerrufen:</strong> Nimm Minuvo in den iOS-Einstellungen unter „Bildschirmzeit“ den
+                Zugriff. Dann kann Minuvo nichts mehr sperren.</li>
+              <li><strong>Kurz freischalten:</strong> Für einzelne Momente gibt es in der App die
+                Notfall-Freischaltung.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details id="kontakt" open>
+          <summary>Kontakt</summary>
+          <div>
+            <p>Schreib an <a href="mailto:&lt;E-Mail-Adresse&gt;">&lt;E-Mail-Adresse&gt;</a>. Wenn etwas nicht
+              funktioniert, hilft das Diagnose-Protokoll: Profil → Diagnose → Teilen. Es enthält nur technische
+              Einträge der App und geht nur an uns, wenn du es selbst schickst.</p>
+            <p>Im TestFlight-Test kannst du auch direkt aus TestFlight Feedback mit Screenshot senden.</p>
+          </div>
+        </details>
+      </section>
+
+      <section id="en" lang="en" aria-labelledby="en-title">
+        <h2 id="en-title">Help (English)</h2>
+        <p class="muted">The most common questions about Minuvo. Can't find yours? Write to
+          <a href="#contact">the address below</a>.</p>
+
+        <details>
+          <summary>How do I give Minuvo access to Screen Time?</summary>
+          <div>
+            <p>Minuvo asks for it during onboarding. Tap "Allow Access"; iOS shows a dialog. Confirm with "Continue" and
+              your passcode or Face ID. Only then can Minuvo block apps.</p>
+            <p>If you declined, you can allow it later in the iOS Settings under "Screen Time". Without access, Minuvo
+              cannot block anything or measure your usage.</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>Why does my budget run out sooner than the display shows?</summary>
+          <div>
+            <p>Usually because of "Share Across Devices". If it's on, iOS adds your Mac and iPad usage to your budget,
+              while Minuvo's display counts only this iPhone. You can turn it off in Settings → Screen Time → Share
+              Across Devices.</p>
+            <p>Apple's display and Apple's blocking also count slightly differently, so a few minutes of difference can
+              happen even without other devices.</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>Why can I select at most 50 apps?</summary>
+          <div>
+            <p>iOS blocks at most 50 individual apps at the same time. Above that, it blocks nothing at all. The limit
+              applies to everything Minuvo can block together: hard and soft apps and the apps with their own limit.</p>
+            <p>Whole categories (such as "Social") don't count towards it. If you want to limit many apps, choose
+              categories rather than individual apps. Websites have the same limit of 50.</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>What is the difference between hard and soft?</summary>
+          <div>
+            <p><strong>Hard apps</strong> are blocked as soon as your daily budget is used up, until midnight. If you
+              really need one, only the Emergency Unlock helps: four steps, then 15 minutes free. It costs everything
+              you earned that day.</p>
+            <p><strong>Soft apps</strong> ask first: "Never mind" or "Open anyway (5 min)". Each opening costs 5 minutes from
+              your Time Account. Websites in the soft group stay blocked, because iOS can't unblock them one by one.</p>
+            <p>Both restart your streak of days without exceptions. If an app is in both groups, hard wins.</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>How do I remove all restrictions?</summary>
+          <div>
+            <p>You are always in control:</p>
+            <ul>
+              <li><strong>Delete the app:</strong> When you delete Minuvo, iOS removes all blocks and all of the app's
+                data.</li>
+              <li><strong>Revoke access:</strong> Remove Minuvo's access in the iOS Settings under "Screen Time". Minuvo
+                can then no longer block anything.</li>
+              <li><strong>Unlock briefly:</strong> For single moments, the app offers the Emergency Unlock.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details id="contact" open>
+          <summary>Contact</summary>
+          <div>
+            <p>Write to <a href="mailto:&lt;email address&gt;">&lt;email address&gt;</a>. If something doesn't work, the
+              diagnostics log helps: Profile → Diagnostics → Share. It only contains technical entries from the app and
+              only reaches us if you send it yourself.</p>
+            <p>During the TestFlight beta, you can also send feedback with a screenshot directly from TestFlight.</p>
+          </div>
+        </details>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site">
+    <div class="wrap">
+      <ul>
+        <li><a href="support.html">Hilfe / Help</a></li>
+        <li><a href="datenschutz.html">Datenschutz</a></li>
+        <li><a href="privacy.html" lang="en">Privacy</a></li>
+        <li><a href="impressum.html">Impressum</a></li>
+      </ul>
+      <p>© 2026 Janek Höricht</p>
+    </div>
+  </footer>
+</body>
+</html>
